@@ -79,6 +79,8 @@ else if (gameState===END){
   obstacleGroup.setvelocityXEach(0)
   }
 console.log(frameCount)
+  
+trex.collide(invisibleGround);
 drawSprites();
 }
 
@@ -147,7 +149,6 @@ if(frameCount %60===0){
 
 
 
-trex.collide(invisibleGround);
 
 
 //%--modulus operator
